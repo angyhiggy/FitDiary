@@ -1,0 +1,894 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		074EED4DCA2E88A6E1C2DBB5 /* Pods_FitDiaryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A3801DE986536C943D0CFD /* Pods_FitDiaryTests.framework */; };
+		34D7C486FE745D86E034EB0F /* Pods_FitDiary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF871B48CAEE472416BC83B /* Pods_FitDiary.framework */; };
+		7C748F58249D17A6008D8DF4 /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C748F57249D17A6008D8DF4 /* UserInfoViewController.swift */; };
+		7C748F5A249D7CD5008D8DF4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C748F59249D7CD5008D8DF4 /* HomeViewController.swift */; };
+		7C748F5C249D7D17008D8DF4 /* HomeStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C748F5B249D7D17008D8DF4 /* HomeStoryboard.storyboard */; };
+		7C74C2E224A5616900FAFC01 /* FitDiary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7C74C2E024A5616900FAFC01 /* FitDiary.xcdatamodeld */; };
+		7C74C2E424A5634100FAFC01 /* TrackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C74C2E324A5634100FAFC01 /* TrackViewController.swift */; };
+		7C74C2E624A5649900FAFC01 /* WeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C74C2E524A5649900FAFC01 /* WeightViewController.swift */; };
+		7C783ACC249FEDD300E218DE /* Track.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C783ACB249FEDD300E218DE /* Track.storyboard */; };
+		7C783ACE249FEDE900E218DE /* Workout.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C783ACD249FEDE900E218DE /* Workout.storyboard */; };
+		7C783AD0249FEE0C00E218DE /* Friends.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C783ACF249FEE0C00E218DE /* Friends.storyboard */; };
+		7C783AD2249FEE2300E218DE /* Schedule.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C783AD1249FEE2300E218DE /* Schedule.storyboard */; };
+		7C783AD4249FEE4B00E218DE /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C783AD3249FEE4B00E218DE /* Settings.storyboard */; };
+		7C783AD6249FEE6000E218DE /* Progress.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C783AD5249FEE6000E218DE /* Progress.storyboard */; };
+		7C7C5BE324ABFDC90046F425 /* LogTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7C5BE224ABFDC90046F425 /* LogTableViewController.swift */; };
+		7C7C5BE524AC27080046F425 /* LogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7C5BE424AC27080046F425 /* LogTableViewCell.swift */; };
+		7C7C5BE724AC27840046F425 /* ExLogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7C5BE624AC27840046F425 /* ExLogTableViewCell.swift */; };
+		7CCF13FD249BB8540063D508 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF13FC249BB8540063D508 /* AppDelegate.swift */; };
+		7CCF13FF249BB8540063D508 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF13FE249BB8540063D508 /* SceneDelegate.swift */; };
+		7CCF1401249BB8540063D508 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF1400249BB8540063D508 /* ViewController.swift */; };
+		7CCF1404249BB8540063D508 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CCF1402249BB8540063D508 /* Main.storyboard */; };
+		7CCF1406249BB8560063D508 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CCF1405249BB8560063D508 /* Assets.xcassets */; };
+		7CCF1409249BB8560063D508 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CCF1407249BB8560063D508 /* LaunchScreen.storyboard */; };
+		7CCF1414249BB8560063D508 /* FitDiaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF1413249BB8560063D508 /* FitDiaryTests.swift */; };
+		7CCF141F249BB8560063D508 /* FitDiaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF141E249BB8560063D508 /* FitDiaryUITests.swift */; };
+		7CCF142D249BB8980063D508 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CCF142C249BB8970063D508 /* GoogleService-Info.plist */; };
+		7CCF142E249BB8980063D508 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CCF142C249BB8970063D508 /* GoogleService-Info.plist */; };
+		7CCF142F249BB8980063D508 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CCF142C249BB8970063D508 /* GoogleService-Info.plist */; };
+		7CCF1431249BC13F0063D508 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF1430249BC13F0063D508 /* SignupViewController.swift */; };
+		7CE148E724AA75480089FBA5 /* AddFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE148E624AA75480089FBA5 /* AddFoodViewController.swift */; };
+		7CE148EA24AA7BDE0089FBA5 /* AddExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE148E924AA7BDE0089FBA5 /* AddExerciseViewController.swift */; };
+		7D1482B9007F1A4B31AD0394 /* Pods_FitDiary_FitDiaryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1335A96A9E5F35CF73272FE6 /* Pods_FitDiary_FitDiaryUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CCF1410249BB8560063D508 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CCF13F1249BB8540063D508 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CCF13F8249BB8540063D508;
+			remoteInfo = FitDiary;
+		};
+		7CCF141B249BB8560063D508 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CCF13F1249BB8540063D508 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CCF13F8249BB8540063D508;
+			remoteInfo = FitDiary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1335A96A9E5F35CF73272FE6 /* Pods_FitDiary_FitDiaryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitDiary_FitDiaryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23B6EF31C715C0428D5446C8 /* Pods-FitDiary-FitDiaryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitDiary-FitDiaryUITests.debug.xcconfig"; path = "Target Support Files/Pods-FitDiary-FitDiaryUITests/Pods-FitDiary-FitDiaryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		45A3801DE986536C943D0CFD /* Pods_FitDiaryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitDiaryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53EB3E075D852F6D918FB6AF /* Pods-FitDiary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitDiary.release.xcconfig"; path = "Target Support Files/Pods-FitDiary/Pods-FitDiary.release.xcconfig"; sourceTree = "<group>"; };
+		7343F19E4BEC0A212FF06441 /* Pods-FitDiary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitDiary.debug.xcconfig"; path = "Target Support Files/Pods-FitDiary/Pods-FitDiary.debug.xcconfig"; sourceTree = "<group>"; };
+		7C748F57249D17A6008D8DF4 /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
+		7C748F59249D7CD5008D8DF4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7C748F5B249D7D17008D8DF4 /* HomeStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = HomeStoryboard.storyboard; path = FitDiary/Storyboards/HomeStoryboard.storyboard; sourceTree = SOURCE_ROOT; };
+		7C74C2E124A5616900FAFC01 /* FitDiary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FitDiary.xcdatamodel; sourceTree = "<group>"; };
+		7C74C2E324A5634100FAFC01 /* TrackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TrackViewController.swift; path = "FitDiary/View Controllers/TrackViewController.swift"; sourceTree = SOURCE_ROOT; };
+		7C74C2E524A5649900FAFC01 /* WeightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WeightViewController.swift; path = "FitDiary/View Controllers/WeightViewController.swift"; sourceTree = SOURCE_ROOT; };
+		7C783ACB249FEDD300E218DE /* Track.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Track.storyboard; sourceTree = "<group>"; };
+		7C783ACD249FEDE900E218DE /* Workout.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Workout.storyboard; sourceTree = "<group>"; };
+		7C783ACF249FEE0C00E218DE /* Friends.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Friends.storyboard; sourceTree = "<group>"; };
+		7C783AD1249FEE2300E218DE /* Schedule.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Schedule.storyboard; sourceTree = "<group>"; };
+		7C783AD3249FEE4B00E218DE /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		7C783AD5249FEE6000E218DE /* Progress.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Progress.storyboard; sourceTree = "<group>"; };
+		7C7C5BE224ABFDC90046F425 /* LogTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogTableViewController.swift; sourceTree = "<group>"; };
+		7C7C5BE424AC27080046F425 /* LogTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogTableViewCell.swift; sourceTree = "<group>"; };
+		7C7C5BE624AC27840046F425 /* ExLogTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExLogTableViewCell.swift; sourceTree = "<group>"; };
+		7CCF13F9249BB8540063D508 /* FitDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CCF13FC249BB8540063D508 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7CCF13FE249BB8540063D508 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7CCF1400249BB8540063D508 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7CCF1403249BB8540063D508 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CCF1405249BB8560063D508 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CCF1408249BB8560063D508 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CCF140A249BB8560063D508 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CCF140F249BB8560063D508 /* FitDiaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitDiaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CCF1413249BB8560063D508 /* FitDiaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitDiaryTests.swift; sourceTree = "<group>"; };
+		7CCF1415249BB8560063D508 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CCF141A249BB8560063D508 /* FitDiaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitDiaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CCF141E249BB8560063D508 /* FitDiaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitDiaryUITests.swift; sourceTree = "<group>"; };
+		7CCF1420249BB8560063D508 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CCF142C249BB8970063D508 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7CCF1430249BC13F0063D508 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		7CE148E624AA75480089FBA5 /* AddFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddFoodViewController.swift; path = "FitDiary/View Controllers/AddFoodViewController.swift"; sourceTree = SOURCE_ROOT; };
+		7CE148E924AA7BDE0089FBA5 /* AddExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExerciseViewController.swift; sourceTree = "<group>"; };
+		B41CC34BF46F1BAC0B18B2ED /* Pods-FitDiary-FitDiaryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitDiary-FitDiaryUITests.release.xcconfig"; path = "Target Support Files/Pods-FitDiary-FitDiaryUITests/Pods-FitDiary-FitDiaryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BEF871B48CAEE472416BC83B /* Pods_FitDiary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitDiary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB4CFA091E17C8EFE6A05AA /* Pods-FitDiaryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitDiaryTests.release.xcconfig"; path = "Target Support Files/Pods-FitDiaryTests/Pods-FitDiaryTests.release.xcconfig"; sourceTree = "<group>"; };
+		FC614D2C672EC6CB02B26550 /* Pods-FitDiaryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitDiaryTests.debug.xcconfig"; path = "Target Support Files/Pods-FitDiaryTests/Pods-FitDiaryTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CCF13F6249BB8540063D508 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D7C486FE745D86E034EB0F /* Pods_FitDiary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CCF140C249BB8560063D508 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074EED4DCA2E88A6E1C2DBB5 /* Pods_FitDiaryTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CCF1417249BB8560063D508 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D1482B9007F1A4B31AD0394 /* Pods_FitDiary_FitDiaryUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BA97EC78370D5DDDD20B97C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEF871B48CAEE472416BC83B /* Pods_FitDiary.framework */,
+				1335A96A9E5F35CF73272FE6 /* Pods_FitDiary_FitDiaryUITests.framework */,
+				45A3801DE986536C943D0CFD /* Pods_FitDiaryTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C783AD7249FF14000E218DE /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				7CCF1407249BB8560063D508 /* LaunchScreen.storyboard */,
+				7CCF1402249BB8540063D508 /* Main.storyboard */,
+				7C748F5B249D7D17008D8DF4 /* HomeStoryboard.storyboard */,
+				7C783ACB249FEDD300E218DE /* Track.storyboard */,
+				7C783ACD249FEDE900E218DE /* Workout.storyboard */,
+				7C783ACF249FEE0C00E218DE /* Friends.storyboard */,
+				7C783AD1249FEE2300E218DE /* Schedule.storyboard */,
+				7C783AD3249FEE4B00E218DE /* Settings.storyboard */,
+				7C783AD5249FEE6000E218DE /* Progress.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		7CCF13F0249BB8540063D508 = {
+			isa = PBXGroup;
+			children = (
+				7CCF13FB249BB8540063D508 /* FitDiary */,
+				7CCF1412249BB8560063D508 /* FitDiaryTests */,
+				7CCF141D249BB8560063D508 /* FitDiaryUITests */,
+				7CCF13FA249BB8540063D508 /* Products */,
+				8F66250CB08CCA48FB0B9995 /* Pods */,
+				0BA97EC78370D5DDDD20B97C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7CCF13FA249BB8540063D508 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CCF13F9249BB8540063D508 /* FitDiary.app */,
+				7CCF140F249BB8560063D508 /* FitDiaryTests.xctest */,
+				7CCF141A249BB8560063D508 /* FitDiaryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CCF13FB249BB8540063D508 /* FitDiary */ = {
+			isa = PBXGroup;
+			children = (
+				7CE148E824AA75570089FBA5 /* View Controllers */,
+				7C783AD7249FF14000E218DE /* Storyboards */,
+				7CCF142C249BB8970063D508 /* GoogleService-Info.plist */,
+				7CCF13FC249BB8540063D508 /* AppDelegate.swift */,
+				7C74C2E024A5616900FAFC01 /* FitDiary.xcdatamodeld */,
+				7CCF13FE249BB8540063D508 /* SceneDelegate.swift */,
+				7CCF1405249BB8560063D508 /* Assets.xcassets */,
+				7CCF140A249BB8560063D508 /* Info.plist */,
+			);
+			path = FitDiary;
+			sourceTree = "<group>";
+		};
+		7CCF1412249BB8560063D508 /* FitDiaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				7CCF1413249BB8560063D508 /* FitDiaryTests.swift */,
+				7CCF1415249BB8560063D508 /* Info.plist */,
+			);
+			path = FitDiaryTests;
+			sourceTree = "<group>";
+		};
+		7CCF141D249BB8560063D508 /* FitDiaryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7CCF141E249BB8560063D508 /* FitDiaryUITests.swift */,
+				7CCF1420249BB8560063D508 /* Info.plist */,
+			);
+			path = FitDiaryUITests;
+			sourceTree = "<group>";
+		};
+		7CE148E824AA75570089FBA5 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7C7C5BE224ABFDC90046F425 /* LogTableViewController.swift */,
+				7C7C5BE424AC27080046F425 /* LogTableViewCell.swift */,
+				7C7C5BE624AC27840046F425 /* ExLogTableViewCell.swift */,
+				7CE148E624AA75480089FBA5 /* AddFoodViewController.swift */,
+				7CCF1400249BB8540063D508 /* ViewController.swift */,
+				7C748F59249D7CD5008D8DF4 /* HomeViewController.swift */,
+				7C74C2E324A5634100FAFC01 /* TrackViewController.swift */,
+				7C74C2E524A5649900FAFC01 /* WeightViewController.swift */,
+				7C748F57249D17A6008D8DF4 /* UserInfoViewController.swift */,
+				7CCF1430249BC13F0063D508 /* SignupViewController.swift */,
+				7CE148E924AA7BDE0089FBA5 /* AddExerciseViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		8F66250CB08CCA48FB0B9995 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7343F19E4BEC0A212FF06441 /* Pods-FitDiary.debug.xcconfig */,
+				53EB3E075D852F6D918FB6AF /* Pods-FitDiary.release.xcconfig */,
+				23B6EF31C715C0428D5446C8 /* Pods-FitDiary-FitDiaryUITests.debug.xcconfig */,
+				B41CC34BF46F1BAC0B18B2ED /* Pods-FitDiary-FitDiaryUITests.release.xcconfig */,
+				FC614D2C672EC6CB02B26550 /* Pods-FitDiaryTests.debug.xcconfig */,
+				FAB4CFA091E17C8EFE6A05AA /* Pods-FitDiaryTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CCF13F8249BB8540063D508 /* FitDiary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CCF1423249BB8560063D508 /* Build configuration list for PBXNativeTarget "FitDiary" */;
+			buildPhases = (
+				925D6BB200BE5F030934564B /* [CP] Check Pods Manifest.lock */,
+				7CCF13F5249BB8540063D508 /* Sources */,
+				7CCF13F6249BB8540063D508 /* Frameworks */,
+				7CCF13F7249BB8540063D508 /* Resources */,
+				DE127EF1E429B342D9D19134 /* [CP] Embed Pods Frameworks */,
+				CFDD68DB09CD372CD8791942 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FitDiary;
+			productName = FitDiary;
+			productReference = 7CCF13F9249BB8540063D508 /* FitDiary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CCF140E249BB8560063D508 /* FitDiaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CCF1426249BB8560063D508 /* Build configuration list for PBXNativeTarget "FitDiaryTests" */;
+			buildPhases = (
+				49C14ACA97158F4B9A986E74 /* [CP] Check Pods Manifest.lock */,
+				7CCF140B249BB8560063D508 /* Sources */,
+				7CCF140C249BB8560063D508 /* Frameworks */,
+				7CCF140D249BB8560063D508 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CCF1411249BB8560063D508 /* PBXTargetDependency */,
+			);
+			name = FitDiaryTests;
+			productName = FitDiaryTests;
+			productReference = 7CCF140F249BB8560063D508 /* FitDiaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7CCF1419249BB8560063D508 /* FitDiaryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CCF1429249BB8560063D508 /* Build configuration list for PBXNativeTarget "FitDiaryUITests" */;
+			buildPhases = (
+				510A20F52D2904028B13CF35 /* [CP] Check Pods Manifest.lock */,
+				7CCF1416249BB8560063D508 /* Sources */,
+				7CCF1417249BB8560063D508 /* Frameworks */,
+				7CCF1418249BB8560063D508 /* Resources */,
+				5325EF557ABCD57FBE1E71D5 /* [CP] Embed Pods Frameworks */,
+				59DC9172BBE5D49EAD1AD267 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CCF141C249BB8560063D508 /* PBXTargetDependency */,
+			);
+			name = FitDiaryUITests;
+			productName = FitDiaryUITests;
+			productReference = 7CCF141A249BB8560063D508 /* FitDiaryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CCF13F1249BB8540063D508 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Angy Higgy";
+				TargetAttributes = {
+					7CCF13F8249BB8540063D508 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					7CCF140E249BB8560063D508 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 7CCF13F8249BB8540063D508;
+					};
+					7CCF1419249BB8560063D508 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 7CCF13F8249BB8540063D508;
+					};
+				};
+			};
+			buildConfigurationList = 7CCF13F4249BB8540063D508 /* Build configuration list for PBXProject "FitDiary" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CCF13F0249BB8540063D508;
+			productRefGroup = 7CCF13FA249BB8540063D508 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CCF13F8249BB8540063D508 /* FitDiary */,
+				7CCF140E249BB8560063D508 /* FitDiaryTests */,
+				7CCF1419249BB8560063D508 /* FitDiaryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CCF13F7249BB8540063D508 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C783ACE249FEDE900E218DE /* Workout.storyboard in Resources */,
+				7C783AD6249FEE6000E218DE /* Progress.storyboard in Resources */,
+				7CCF1409249BB8560063D508 /* LaunchScreen.storyboard in Resources */,
+				7C783AD2249FEE2300E218DE /* Schedule.storyboard in Resources */,
+				7CCF142D249BB8980063D508 /* GoogleService-Info.plist in Resources */,
+				7C783ACC249FEDD300E218DE /* Track.storyboard in Resources */,
+				7C783AD0249FEE0C00E218DE /* Friends.storyboard in Resources */,
+				7CCF1406249BB8560063D508 /* Assets.xcassets in Resources */,
+				7CCF1404249BB8540063D508 /* Main.storyboard in Resources */,
+				7C748F5C249D7D17008D8DF4 /* HomeStoryboard.storyboard in Resources */,
+				7C783AD4249FEE4B00E218DE /* Settings.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CCF140D249BB8560063D508 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CCF142E249BB8980063D508 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CCF1418249BB8560063D508 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CCF142F249BB8980063D508 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		49C14ACA97158F4B9A986E74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FitDiaryTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		510A20F52D2904028B13CF35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FitDiary-FitDiaryUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5325EF557ABCD57FBE1E71D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FitDiary-FitDiaryUITests/Pods-FitDiary-FitDiaryUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FitDiary-FitDiaryUITests/Pods-FitDiary-FitDiaryUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FitDiary-FitDiaryUITests/Pods-FitDiary-FitDiaryUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59DC9172BBE5D49EAD1AD267 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FitDiary-FitDiaryUITests/Pods-FitDiary-FitDiaryUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FitDiary-FitDiaryUITests/Pods-FitDiary-FitDiaryUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FitDiary-FitDiaryUITests/Pods-FitDiary-FitDiaryUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		925D6BB200BE5F030934564B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FitDiary-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFDD68DB09CD372CD8791942 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FitDiary/Pods-FitDiary-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FitDiary/Pods-FitDiary-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FitDiary/Pods-FitDiary-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE127EF1E429B342D9D19134 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FitDiary/Pods-FitDiary-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FitDiary/Pods-FitDiary-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FitDiary/Pods-FitDiary-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CCF13F5249BB8540063D508 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C7C5BE524AC27080046F425 /* LogTableViewCell.swift in Sources */,
+				7CCF1401249BB8540063D508 /* ViewController.swift in Sources */,
+				7C74C2E424A5634100FAFC01 /* TrackViewController.swift in Sources */,
+				7C74C2E224A5616900FAFC01 /* FitDiary.xcdatamodeld in Sources */,
+				7CCF13FD249BB8540063D508 /* AppDelegate.swift in Sources */,
+				7C74C2E624A5649900FAFC01 /* WeightViewController.swift in Sources */,
+				7C748F58249D17A6008D8DF4 /* UserInfoViewController.swift in Sources */,
+				7CE148EA24AA7BDE0089FBA5 /* AddExerciseViewController.swift in Sources */,
+				7CCF1431249BC13F0063D508 /* SignupViewController.swift in Sources */,
+				7CCF13FF249BB8540063D508 /* SceneDelegate.swift in Sources */,
+				7C748F5A249D7CD5008D8DF4 /* HomeViewController.swift in Sources */,
+				7C7C5BE724AC27840046F425 /* ExLogTableViewCell.swift in Sources */,
+				7C7C5BE324ABFDC90046F425 /* LogTableViewController.swift in Sources */,
+				7CE148E724AA75480089FBA5 /* AddFoodViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CCF140B249BB8560063D508 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CCF1414249BB8560063D508 /* FitDiaryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CCF1416249BB8560063D508 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CCF141F249BB8560063D508 /* FitDiaryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CCF1411249BB8560063D508 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CCF13F8249BB8540063D508 /* FitDiary */;
+			targetProxy = 7CCF1410249BB8560063D508 /* PBXContainerItemProxy */;
+		};
+		7CCF141C249BB8560063D508 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CCF13F8249BB8540063D508 /* FitDiary */;
+			targetProxy = 7CCF141B249BB8560063D508 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7CCF1402249BB8540063D508 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CCF1403249BB8540063D508 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CCF1407249BB8560063D508 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CCF1408249BB8560063D508 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CCF1421249BB8560063D508 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7CCF1422249BB8560063D508 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CCF1424249BB8560063D508 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7343F19E4BEC0A212FF06441 /* Pods-FitDiary.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VVGR9KTJGP;
+				INFOPLIST_FILE = FitDiary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Angy-Higgy.FitDiary";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CCF1425249BB8560063D508 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53EB3E075D852F6D918FB6AF /* Pods-FitDiary.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VVGR9KTJGP;
+				INFOPLIST_FILE = FitDiary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Angy-Higgy.FitDiary";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7CCF1427249BB8560063D508 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC614D2C672EC6CB02B26550 /* Pods-FitDiaryTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VVGR9KTJGP;
+				INFOPLIST_FILE = FitDiaryTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Angy-Higgy.FitDiaryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitDiary.app/FitDiary";
+			};
+			name = Debug;
+		};
+		7CCF1428249BB8560063D508 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAB4CFA091E17C8EFE6A05AA /* Pods-FitDiaryTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VVGR9KTJGP;
+				INFOPLIST_FILE = FitDiaryTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Angy-Higgy.FitDiaryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitDiary.app/FitDiary";
+			};
+			name = Release;
+		};
+		7CCF142A249BB8560063D508 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23B6EF31C715C0428D5446C8 /* Pods-FitDiary-FitDiaryUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VVGR9KTJGP;
+				INFOPLIST_FILE = FitDiaryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Angy-Higgy.FitDiaryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FitDiary;
+			};
+			name = Debug;
+		};
+		7CCF142B249BB8560063D508 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B41CC34BF46F1BAC0B18B2ED /* Pods-FitDiary-FitDiaryUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VVGR9KTJGP;
+				INFOPLIST_FILE = FitDiaryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Angy-Higgy.FitDiaryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FitDiary;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CCF13F4249BB8540063D508 /* Build configuration list for PBXProject "FitDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CCF1421249BB8560063D508 /* Debug */,
+				7CCF1422249BB8560063D508 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CCF1423249BB8560063D508 /* Build configuration list for PBXNativeTarget "FitDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CCF1424249BB8560063D508 /* Debug */,
+				7CCF1425249BB8560063D508 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CCF1426249BB8560063D508 /* Build configuration list for PBXNativeTarget "FitDiaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CCF1427249BB8560063D508 /* Debug */,
+				7CCF1428249BB8560063D508 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CCF1429249BB8560063D508 /* Build configuration list for PBXNativeTarget "FitDiaryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CCF142A249BB8560063D508 /* Debug */,
+				7CCF142B249BB8560063D508 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7C74C2E024A5616900FAFC01 /* FitDiary.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7C74C2E124A5616900FAFC01 /* FitDiary.xcdatamodel */,
+			);
+			currentVersion = 7C74C2E124A5616900FAFC01 /* FitDiary.xcdatamodel */;
+			path = FitDiary.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7CCF13F1249BB8540063D508 /* Project object */;
+}

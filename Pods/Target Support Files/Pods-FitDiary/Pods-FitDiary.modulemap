@@ -1,0 +1,6 @@
+framework module Pods_FitDiary {
+  umbrella header "Pods-FitDiary-umbrella.h"
+
+  export *
+  module * { export * }
+}
